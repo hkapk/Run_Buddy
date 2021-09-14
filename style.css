@@ -1,0 +1,50 @@
+/* remove built in HTML styling */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* apply style to the <body> */
+body {
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* apply design to <header> */
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+}
+
+/* remove the underline and blue from the hyperlinks by setting text-dec to 'none' */
+header a {
+    text-decoration: none;
+    color: #fce138;
+}
+
+/* adjust margin and move <nav> to right */
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+
+/* move unordered list into 'side by side' */
+header nav ul li {
+    display: inline;
+}
+
+/* re-size <nav's> <a> element */
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
